@@ -2,4 +2,50 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+.Navigation-buttons {
 
+    display:grid;
+    grid-template-columns: fit-content(12em)fit-content(12em) fit-content(12em) fit-content(12em);
+    
+}
+.Navigation-buttons a {
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    border: 1px solid black;
+
+}
+
+.Banner {
+    display:grid;
+    place-items: center;
+    font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif;
+    background-color: bisque ;
+    
+
+}
+
+.Banner h1 {
+    font-family:'Courier New', Courier, monospace; <!--temporaryfont-->
+    font-size: 40px;
+    opacity: 70%;
+}
+
+.Banner h2 {
+    font-size: 15px;
+
+}
+.About-me {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px 1fr));
+    grid-template-columns: fit-content(30em) auto;
+    gap: 2em;
+    margin: 0 0 2em 0;
+    font-family: 'Open Sans', sans-serif;font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
+}
+
+.About-me p {
+    min-width: 10em;
+}
+
+<!--grid-template-columns: fit-content(30em) auto;--->
